@@ -1,0 +1,45 @@
+.face {
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  width: 48px;
+  margin: 16px;
+}
+md-grid-list {
+/*  margin: 8px;*/
+}
+.grid-test h1 {
+    margin-left: 16px;
+    font-weight: 400;
+}
+.grid-test .mim-main {
+    background: #00c5cf;
+}
+.grid-test .mim-accent-01 {
+    background: #b2f0d4;
+}
+.grid-test .mim-accent-02 {
+    background: #b2edf0;
+}
+.grid-test .mim-accent-03 {
+    background: #ccf3f5;
+}
+.grid-test .mim-accent-04 {
+    background: #e5f9fa;
+}
+.grid-test .mim-compliment-01 {
+    background: #f5cecc;
+}
+.grid-test .gray {
+  background: #f5f5f5; }
+.grid-test .green {
+  background: #b9f6ca; }
+.grid-test .yellow {
+  background: #ffff8d; }
+.grid-test .blue {
+  background: #84ffff; }
+.grid-test .purple {
+  background: #b388ff; }
+.grid-test .red {
+  background: #ff8a80; }
+.grid-test md-grid-tile {
+  transition: all 400ms ease-out 50ms; }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>Mimics Messaging</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+  <link rel="stylesheet" href="/css/mimchat.css">
+</head>
+
+<body ng-app="BlankApp" ng-cloak>
+
+<div class="grid-test" ng-controller="MainController">
+  <md-grid-list
+        md-cols-xs="1" md-cols-sm="2" md-cols-md="4" md-cols-gt-md="6"
+        md-row-height-gt-md="1:1" md-row-height="2:2"
+        md-gutter="12px" md-gutter-gt-sm="8px" >
+    <md-grid-tile class="mim-accent-03" md-rowspan="3" md-colspan="4" md-colspan-sm="1">
+      Talk to Us<br />
+      This will be the welcome message
+      <md-grid-tile-footer>
+        <h1>Welcome!</h1>
+      </md-grid-tile-footer>
+    </md-grid-tile>
+    <md-grid-tile class="mim-accent-01">
+      <md-grid-tile-footer>
+        <h3>Sign Up</h3>
+      </md-grid-tile-footer>
+    </md-grid-tile>
+    <md-grid-tile class="mim-compliment-01">
+      <md-grid-tile-footer>
+        <h3>Sign In</h3>
+      </md-grid-tile-footer>
+    </md-grid-tile>
+    <md-grid-tile class="mim-accent-04"
+        md-rowspan="2" md-colspan="2" md-colspan-sm="1">
+      <md-grid-tile-footer>
+        <h3>Latest Posts</h3>
+      </md-grid-tile-footer>
+    </md-grid-tile>
+  </md-grid-list>
+</div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-messages.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+  <script src="/js/main.js"></script>
+
+</body>
+</html>
